@@ -1,0 +1,39 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "A description for 'jwt.secret'"
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.String",
+      "description": "A description for 'jwt.expiration'"
+    },
+    {
+      "name": "spring.security.enabled",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.security.enabled'"
+    },
+    {
+      "name": "multitenant.mysql.password",
+      "type": "java.lang.String",
+      "description": "A description for 'multitenant.mysql.password'"
+    },
+    {
+      "name": "multitenant.mysql.user",
+      "type": "java.lang.String",
+      "description": "A description for 'multitenant.mysql.user'"
+    },
+    {
+      "name": "multitenant.mysql.port",
+      "type": "java.lang.String",
+      "description": "A description for 'multitenant.mysql.port'"
+    },
+    {
+      "name": "multitenant.mysql.host",
+      "type": "java.lang.String",
+      "description": "A description for 'multitenant.mysql.host'"
+    }
+  ]
+}

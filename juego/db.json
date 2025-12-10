@@ -1,0 +1,201 @@
+{
+  "puntuaciones": [
+    {
+      "id": "p1",
+      "nombreUsuario": "Piloto_X",
+      "valorPuntuacion": 12500,
+      "fechaRegistro": "2025-12-05T17:15:00Z",
+      "detallesPartida": {
+        "duracionSegundos": 185,
+        "enemigosEliminados": 57,
+        "disparosRealizados": 221,
+        "naveJugadorFinal": {
+          "vida": 0,
+          "posicionFinal": {
+            "x": 128,
+            "y": 620
+          }
+        },
+        "configuracionNivelUsada": {
+          "velocidadEnemigos": 2.5,
+          "frecuenciaDisparoEnemigo": 1.2,
+          "cantidadEnemigosInicial": 10
+        }
+      }
+    },
+    {
+      "id": "p2",
+      "nombreUsuario": "ComandanteA",
+      "valorPuntuacion": 8400,
+      "fechaRegistro": "2025-11-20T12:10:00Z",
+      "detallesPartida": {
+        "duracionSegundos": 140,
+        "enemigosEliminados": 38,
+        "disparosRealizados": 145,
+        "naveJugadorFinal": {
+          "vida": 1,
+          "posicionFinal": {
+            "x": 300,
+            "y": 620
+          }
+        },
+        "configuracionNivelUsada": {
+          "velocidadEnemigos": 2,
+          "frecuenciaDisparoEnemigo": 1,
+          "cantidadEnemigosInicial": 12
+        }
+      }
+    },
+    {
+      "id": "id_riup677kmiza2h5v",
+      "nombreUsuario": "JugadorLocal",
+      "valorPuntuacion": 2550,
+      "fechaRegistro": "2025-12-10T00:35:20.035Z",
+      "detallesPartida": {
+        "motivo": "derrota",
+        "mensaje": "La nave fue destruida",
+        "tiempoSegundos": 11.383000000001507,
+        "enemigosRestantes": 2
+      }
+    },
+    {
+      "id": "id_rc5htbrkmiza2qzt",
+      "nombreUsuario": "JugadorLocal",
+      "valorPuntuacion": 2950,
+      "fechaRegistro": "2025-12-10T00:35:32.777Z",
+      "detallesPartida": {
+        "motivo": "victoria",
+        "mensaje": "¡Has derrotado a todos los enemigos!",
+        "tiempoSegundos": 6.844800000000027,
+        "enemigosRestantes": 0
+      }
+    },
+    {
+      "id": "id_nxobkthemiza349g",
+      "nombreUsuario": "JugadorLocal",
+      "valorPuntuacion": 2050,
+      "fechaRegistro": "2025-12-10T00:35:49.972Z",
+      "detallesPartida": {
+        "motivo": "derrota",
+        "mensaje": "La nave fue destruida",
+        "tiempoSegundos": 8.733100000000745,
+        "enemigosRestantes": 5
+      }
+    },
+    {
+      "id": "id_leprfe6pmiza3dla",
+      "nombreUsuario": "JugadorLocal",
+      "valorPuntuacion": 2950,
+      "fechaRegistro": "2025-12-10T00:36:02.062Z",
+      "detallesPartida": {
+        "motivo": "victoria",
+        "mensaje": "¡Has derrotado a todos los enemigos!",
+        "tiempoSegundos": 9.58539999999925,
+        "enemigosRestantes": 0
+      }
+    },
+    {
+      "id": "id_qdqpfrejmiza3q0t",
+      "nombreUsuario": "JugadorLocal",
+      "valorPuntuacion": 2550,
+      "fechaRegistro": "2025-12-10T00:36:18.173Z",
+      "detallesPartida": {
+        "motivo": "derrota",
+        "mensaje": "La nave fue destruida",
+        "tiempoSegundos": 11.06200000000073,
+        "enemigosRestantes": 2
+      }
+    },
+    {
+      "id": "id_7a3pahy1mizad3we",
+      "nombreUsuario": "JugadorLocal",
+      "valorPuntuacion": 1400,
+      "fechaRegistro": "2025-12-10T00:43:36.062Z",
+      "detallesPartida": {
+        "motivo": "derrota",
+        "mensaje": "La nave fue destruida",
+        "tiempoSegundos": 9.161799999999287,
+        "enemigosRestantes": 9
+      }
+    },
+    {
+      "id": "id_g61f0bw7mizbg2ql",
+      "nombreUsuario": "JugadorLocal",
+      "valorPuntuacion": 1350,
+      "fechaRegistro": "2025-12-10T01:13:54.141Z",
+      "detallesPartida": {
+        "motivo": "derrota",
+        "mensaje": "La nave fue destruida",
+        "tiempoSegundos": 7.388500000000757,
+        "enemigosRestantes": 11
+      }
+    }
+  ],
+  "historialPartidas": [
+    {
+      "id": "h1",
+      "fecha": "2025-12-01T15:00:00Z",
+      "enemigos": [
+        {
+          "id": "e1",
+          "tipo": "basico",
+          "posicion": {
+            "x": 50,
+            "y": 40
+          },
+          "velocidad": 1.6,
+          "valorPuntuacion": 100
+        },
+        {
+          "id": "e2",
+          "tipo": "rapido",
+          "posicion": {
+            "x": 110,
+            "y": 40
+          },
+          "velocidad": 2.4,
+          "valorPuntuacion": 150
+        }
+      ],
+      "proyectilesDisparados": [
+        {
+          "id": "pr1",
+          "origen": "jugador",
+          "danio": 1,
+          "posicionInicial": {
+            "x": 128,
+            "y": 620
+          }
+        },
+        {
+          "id": "pr2",
+          "origen": "enemigo",
+          "danio": 1,
+          "posicionInicial": {
+            "x": 110,
+            "y": 60
+          }
+        }
+      ],
+      "naveJugador": {
+        "id": "n1",
+        "vidaInicial": 3,
+        "posicionInicial": {
+          "x": 128,
+          "y": 620
+        },
+        "velocidad": 300
+      },
+      "configuracionNivel": {
+        "velocidadEnemigos": 1.8,
+        "frecuenciaDisparoEnemigo": 1.1,
+        "cantidadEnemigosInicial": 10
+      },
+      "resultado": {
+        "duracionSegundos": 160,
+        "enemigosEliminados": 45,
+        "puntosObtenidos": 9800
+      }
+    }
+  ]
+}
